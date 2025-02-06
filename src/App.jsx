@@ -1,5 +1,5 @@
 import { InputBox } from "./Components"; // InputBox component import kar rahe hain / Importing the InputBox component
-import useCurrencyInfo from "../src/Hooks/UseCurrencyinfo.js"; // Custom hook jo currency rates fetch karega / Custom hook that fetches currency exchange rates
+import useCurrencyInfo from "../src/Hooks/UseCurrencyinfo"; // Custom hook jo currency rates fetch karega / Custom hook that fetches currency exchange rates
 import { useState } from "react";// Import React and useState
 
 const App = () => {
