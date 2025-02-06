@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 // Custom hook used for fetching the exchange rate of any given currency
-function useCurrencyInfo(currency) {
+function useCurrencyinfo(currency) {
     // useState hook to store the exchange rates in the state, initially set to an empty object
     const [rates, setRates] = useState({}); 
 
@@ -24,7 +24,7 @@ function useCurrencyInfo(currency) {
     return rates; 
 }
 
-export default useCurrencyInfo;
+export default useCurrencyinfo;
 
 /**
  * useCurrencyInfo Hook Documentation in English:
